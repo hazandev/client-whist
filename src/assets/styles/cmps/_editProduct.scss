@@ -1,0 +1,36 @@
+.edit-product{
+    background: #0984e3;
+    border: 2px solid rgb(80, 80, 80);
+    border-radius: 3px;
+    padding: 8px;
+
+    .form-product{
+        justify-content: space-between;
+        align-items: baseline;
+        padding: 8px;
+        height: 100%;
+        
+        .field-input{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            width: 90%;
+            font-size: 1.5rem;
+            input{
+                width: 100%;
+                background: inherit;
+                font-size: 1.2rem;
+                color: #fff;
+            }
+            input::placeholder{
+                font-size: 1.2rem;
+                color: #fff;
+            }
+            input:focus{
+                outline: none;
+                background: inherit;
+            }
+        }
+    }
+}
+

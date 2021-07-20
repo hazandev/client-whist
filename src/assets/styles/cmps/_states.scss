@@ -1,0 +1,18 @@
+.modal-state{
+    h1{
+        font-size: 2rem;
+        color: var(--spanColor);
+        padding-bottom: 6px;
+        border-bottom: 2px solid #333;
+        margin-bottom: 1rem;
+    }
+    ul{
+        width: 100%;
+        border: 2px solid #333;
+        border-radius: 4px;
+        li{
+            font-size: 1.5rem;
+            padding: 8px;
+        }
+    }
+}

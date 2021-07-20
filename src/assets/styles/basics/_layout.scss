@@ -1,0 +1,78 @@
+.app{
+    width: 100vw;
+    height: 100vh;
+    overflow: auto;
+}
+
+.app-header{
+    height: 5vh;
+}
+
+.container{
+    display: flex;
+    height: 90vh;
+    margin: 1rem;
+    padding: 1rem;
+    border-right: 2px solid  var(--spanColor);
+    border-left: 2px solid  var(--spanColor);
+    border-bottom: 2px solid  var(--spanColor);
+    border-radius: 8px
+}
+
+.home, .admin{
+    display: flex;  
+    width: 100%;
+    justify-content: space-between;
+}
+
+.edit-product{
+    width: 20rem;
+    height: 25rem;
+}
+
+.product-list{
+    width: 100%;
+}
+
+.product-preview{
+    width: 13rem;
+    height: 16rem;
+    .card-product{
+        margin-bottom: 0.5rem;
+    }
+}
+
+.cart-side{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.cart{
+    min-width: 15rem;
+    min-height: 20rem;
+    max-height: 90vh;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    overflow-y: auto;   
+}
+
+.state-page{
+    width: 100%;
+    display: flex;
+}
+
+.states-display{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+
+}
+
+.modal-state{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 30%;
+}

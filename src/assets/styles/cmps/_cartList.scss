@@ -1,0 +1,26 @@
+.cart{
+    border: 2px solid #333;
+    border-radius: 8px;
+    padding: 12px;
+    .cart-list li{
+        display: flex;
+        justify-content: space-between;
+        font-size: 1.3rem;
+        padding: 8px 0;
+        border-bottom: 1px solid #000;
+        h1{
+            font-weight: 500;
+        }
+        h2{
+            color: rgb(192, 46, 9);
+        }
+    }
+    .total-cart{
+        text-align: center;
+        font-size: 1.5rem;
+        margin-top: 2rem;
+        span{
+            color: rgb(247, 4, 4);
+        }
+    }
+}

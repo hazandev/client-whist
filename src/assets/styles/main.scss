@@ -1,0 +1,32 @@
+// Setup
+@import "setup/variables";
+@import "setup/functions";
+@import "setup/mixins";
+@import "setup/typography";
+
+// Basics
+@import "basics/reset";
+@import "basics/helpers";
+@import "basics/base";
+@import "basics/forms";
+@import "basics/button";
+
+
+//Base
+@import "basics/layout";
+@import "basics/media";
+
+// Components
+@import "cmps/app";
+@import "cmps/appHeader";
+@import "cmps/home";
+@import "cmps/admin";
+@import "cmps/editProduct";
+@import "cmps/productList";
+@import "cmps/productPreview";
+@import "cmps/cartList";
+@import "cmps/states";
+
+
+
+
